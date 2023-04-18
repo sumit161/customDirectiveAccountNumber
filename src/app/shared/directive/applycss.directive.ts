@@ -63,6 +63,7 @@ export class ApplycssDirective implements OnInit {
     if (number.every((ele) => ele >= 0)) {
       this.EleRef.nativeElement.value = arr.join(' ');
     }else{
+      this.EleRef.nativeElement.value = "";
       alert("allow only numbers")
     }
   }
