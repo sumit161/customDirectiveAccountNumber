@@ -42,9 +42,9 @@ export class ApplycssDirective implements OnInit {
     //     }else{
     //       alert("po")
     //     }
-    let p = this.EleRef.nativeElement.value.toString();
+    //  p = this.EleRef.nativeElement.value.toString();
     // console.log(typeof p);
-    p = this.EleRef.nativeElement.value.replace(/ /gi, '');
+   let p = this.EleRef.nativeElement.value.replace(/ /gi, '').replace(".","").replace(".","").replace(".","").replace(".","");
     console.log(p);
     let arr: Array<string> = [];
 
